@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户操作首页</title>
+    <script>
+        function jump() {
+            window.location = '__URL__/add';
+        }
+
+    </script>
+</head>
+<body>
+    <table border="1" width="500" align="center">
+        <tr>
+            <th>用户号</th>
+            <th>姓名</th>
+            <th>操作</th>
+        </tr>
+        <volist name="data" id="vo">
+            <tr>
+                <td><{$vo.work_num}></td>
+                <td><{$vo.name}></td>
+                <td>
+                    <a href="/ballDate/home.php/GameUser/switchDept/id/<{$vo.id}>">换一场球</a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+    <a href="/ballDate/home.php/Game/index">返回首页</a>
+</body>
+</html>

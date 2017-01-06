@@ -1,0 +1,8 @@
+[ 2016-08-17T10:32:35+08:00 ] ::1 /project1/index.php/Home/Picture/uploadPicture
+ERR: 1048:Le champ 'filename' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_pic` (`filename`) VALUES (NULL)
+
+[ 2016-08-17T10:40:48+08:00 ] ::1 /project1/index.php/Home/Picture/uploadPicture
+ERR: 1048:Le champ 'filename' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `tp_pic` (`filename`) VALUES (NULL)
+

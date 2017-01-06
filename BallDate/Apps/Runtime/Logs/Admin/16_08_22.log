@@ -1,0 +1,73 @@
+[ 2016-08-22T11:22:33+08:00 ] ::1 /project1/admin.php/DeptUser/add
+ERR: 非法操作:add
+
+[ 2016-08-22T13:56:16+08:00 ] ::1 /project1/admin.php/User/checkName?username=E7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E7' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2016-08-22T14:01:29+08:00 ] ::1 /project1/admin.php/Dept/checkName?dept_name=TEST
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `tp_dept` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_dept` WHERE `dept_name` = 'TEST' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2016-08-22T14:20:55+08:00 ] ::1 /project1/admin.php/User/checkName?username=E6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E6' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-08-22T15:28:05+08:00 ] ::1 /project1/admin.php/User/checkName?username=E6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E6' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-08-22T15:28:53+08:00 ] ::1 /project1/admin.php/Dept/checkName?dept_name=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: SHOW COLUMNS FROM `tp_dept` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_dept` WHERE `dept_name` = '' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2016-08-22T15:29:06+08:00 ] ::1 /project1/admin.php/User/checkName?username=E7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004394s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E7' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-08-22T16:15:00+08:00 ] ::1 /project1/admin.php/User/checkName?username=E6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E6' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+

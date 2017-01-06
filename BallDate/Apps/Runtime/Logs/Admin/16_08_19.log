@@ -1,0 +1,56 @@
+[ 2016-08-19T11:36:55+08:00 ] ::1 /project1/admin.php/Login/login
+ERR: 无法加载控制器:Login
+
+[ 2016-08-19T12:10:37+08:00 ] ::1 /project1/admin.php/User/checkName?username=E1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2016-08-19T12:11:16+08:00 ] ::1 /project1/admin.php/User/id/0
+ERR: 非法操作:id
+
+[ 2016-08-19T16:31:22+08:00 ] ::1 /project1/admin.php/Dept/checkName?dept_name=TECH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004046s ]
+SQL: SHOW COLUMNS FROM `tp_dept` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_dept` WHERE `dept_name` = 'TECH' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2016-08-19T16:31:26+08:00 ] ::1 /project1/admin.php/Dept/checkName?dept_name=BOSS
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005450s ]
+SQL: SHOW COLUMNS FROM `tp_dept` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_dept` WHERE `dept_name` = 'BOSS' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2016-08-19T16:31:28+08:00 ] ::1 /project1/admin.php/Dept/checkName?dept_name=BOSS
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SHOW COLUMNS FROM `tp_dept` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_dept` WHERE `dept_name` = 'BOSS' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003267s ]
+
+[ 2016-08-19T16:31:29+08:00 ] ::1 /project1/admin.php/Dept/checkName?dept_name=BOSS
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005544s ]
+SQL: SHOW COLUMNS FROM `tp_dept` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_dept` WHERE `dept_name` = 'BOSS' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+

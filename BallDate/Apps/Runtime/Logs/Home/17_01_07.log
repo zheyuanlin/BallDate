@@ -1,0 +1,30 @@
+[ 2017-01-07T05:04:05+08:00 ] ::1 /ballDate/home.php/Game/checkName?name=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `tp_game` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_game` WHERE `name` = '' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-01-07T05:13:03+08:00 ] ::1 /ballDate/home.php/Register/checkName?username=P1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'P1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2017-01-07T05:15:49+08:00 ] ::1 /ballDate/home.php/Register/checkName?username=P1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'P1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002072s ]
+

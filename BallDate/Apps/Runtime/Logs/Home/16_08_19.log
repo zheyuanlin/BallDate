@@ -1,0 +1,10 @@
+[ 2016-08-19T16:31:41+08:00 ] ::1 /project1/home.php/Register/checkName?username=E5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E5' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+

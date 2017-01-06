@@ -1,0 +1,26 @@
+[ 2016-08-18T17:24:08+08:00 ] ::1 /project1/admin.php/User/checkName?username=E1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-08-18T17:24:11+08:00 ] ::1 /project1/admin.php/User/checkName?username=E100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E100' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-08-18T17:28:50+08:00 ] ::1 /project1/admin.php/Index/index
+ERR: 模板不存在:./Apps/Admin/View/Index/index.html
+
+[ 2016-08-18T17:29:08+08:00 ] ::1 /project1/admin.php/
+ERR: 模板不存在:./Apps/Admin/View/Index/index.html
+

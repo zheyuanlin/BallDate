@@ -1,0 +1,23 @@
+[ 2016-08-22T15:31:28+08:00 ] ::1 /project1/home.php/Register/checkName?username=E6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E6' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2016-08-22T15:32:04+08:00 ] ::1 /project1/home.php/Register/checkName?username=E6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE `username` = 'E6' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002362s ]
+
+[ 2016-08-22T15:33:15+08:00 ] ::1 /project1/home.php/User/index.html
+ERR: 模板不存在:./Apps/Home/View/User/index.html
+

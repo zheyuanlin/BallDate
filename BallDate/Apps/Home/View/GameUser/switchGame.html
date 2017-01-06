@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>部门选择</title>
+    <load href="__PUBLIC__/js/jquery-1.7.2.min.js"/>
+    <script>
+        $(function () {
+            $('input[title="backButton"]').click(function() {
+                window.location='__APP__/Game/index';
+            });
+        });
+    </script>
+</head>
+<body>
+<form action="/ballDate/home.php/GameUser/trySwitch" method="post">
+    <div><input type="hidden" name="id" value="<{$data.id}>"/></div>
+    <div><input type="hidden" name="old_game" value="<{$data.game_id}>"/></div>
+    <div>姓名： <{$data.name}></div>
+    <!-- Do a for loop to display all the depts!! and then do the rest...-->
+    <div>
+        <p>您想换到哪场球:</p>
+        <foreach name="game_data" item="game">
+            <p>
+                <{$game.name}> | <{$game.location}> <input type="radio" name="game_id" value="<{$game.id}>"/>
+            </p>
+        </foreach>
+
+
+        <input type="submit" value="OK!"/>
+        <input title="backButton" type="button" name="back" value="退出"/>
+    </div>
+</form>
+</body>
+</html>
